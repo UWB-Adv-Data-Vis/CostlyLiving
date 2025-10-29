@@ -78,12 +78,13 @@ renters?
  - Same color scheme across all panels
  - Works on different screen sizes
  - Follow ggplot2 best practices
+ - Please replace this README with one for your produced dashboard and include alink to the original challenge.
 
 ## Project Plan:
-WeekPhase Planned Tasks with Goals
+Week-phase planned tasks with goals are listed.
 
 ### Week 1 –
-Design Ideation and Planning
+Design, Ideation, and Planning
  - Review data structure and assign roles
  - Brainstorm research questions
  - Sketch dashboard layout
@@ -91,7 +92,7 @@ Design Ideation and Planning
 Goal: Finalized dataset and clear dashboard objectives
 
 ### Week 2 –
-Prototype Testing Concepts
+Prototype, Testing, Concepts
  - Create first draft visuals (ggplot charts, tables)
  - Refine labels, titles, and axes
  - Compare map and bar chart options
@@ -99,14 +100,14 @@ Prototype Testing Concepts
 Goal: Prototype visuals ready for peer review
 
 ### Week 3 –
-Build, Coding and Refinement
+Build, Coding, and Refinement
  - Process and summarize data
  - Add filters for year and state
  - Check for errors and debug
 Goal: Working interactive dashboard without bugs
 
 ### Week 4 
-Deploy, Testing and Presentation
+Deploy, Testing, and Presentation
  - Conduct user testing
  - Refine aesthetics and layout
  - Gather feedback from peers
@@ -198,7 +199,13 @@ Despite these limits, the ACS is still the best source for housing affordability
 To provide more context, we may include: HUD Fair Market Rent data, Bureau of Labor Statistics wage data by state, State-level cost of living measures, and Population and demographic information from other ACS tables.
 
 ## Works cited
+
+
+
 Census tabulation detail: Gross Rent as a percentage of household income. Census Reporter.(n.d.). [](https://censusreporter.org/tables/B25070/)
+
 Consolidated Planning/CHAS Data | HUD USER. (n.d.). [](https://www.huduser.gov/portal/datasets/cp.html)
+
 U.S. Census Bureau. (2023). American Community Survey 5-Year Estimates, Table B25070: Gross Rent as a Percentage of Household Income in the Past 12 Months. Retrieved from [](https://data.census.gov)
+
 U.S. Department of Housing and Urban Development. (n.d.). Affordable Housing. [](https://www.hud.gov/program_offices/comm_planning/affordablehousing/)
