@@ -26,8 +26,16 @@ In this assignment you will demonstrate your ability to:
 ## Overview
 This project looks at data from the U.S. Census Bureau's 2023 survey, specifically how much of their income renters spend on housing. The data shows what percentage of income people pay for rent and utilities across all U.S. states.
 
-Housing costs have become a major sign of inequality in America. Many families now spend more than 30% of their income on rent. The U.S. Department of Housing and Urban Development calls this being "*rent burdened*." When households spend 50% or more, they are "*severely rent burdened*." This challenge asks teams to turn complex census data into a clear, easy-to-use dashboard using R and ggplot2. The dashboard should help users see how rent
-burdens differ by state.
+Housing costs have become a major sign of inequality in America.
+Housing costs have risen faster than wages in most U.S. markets over the past twenty years.
+The COVID-19 pandemic made many of these trends worse, with remote work changing where
+people live and increasing competition in some housing markets. Recent data shows that nearly
+half of American renters are cost-burdened, with low-income households facing the biggest
+challenges. This crisis affects people's ability to move up economically, their health, and their
+quality of life.
+Many families now spend more than 30% of their income on rent. The U.S. Department of Housing and Urban Development calls this being "*rent burdened*." When households spend 50% or more, they are "*severely rent burdened*."
+
+This challenge asks teams to turn complex census data into a clear, easy-to-use dashboard using R Shiny and ggplot2. The dashboard should help users see how rent burdens differ by location.
 
 
 
@@ -51,11 +59,10 @@ The challenge is to transform large and complex ACS datasets into a clear, intui
  - Whether there are surprising patterns that go against common assumptions
  - How well data visualization can explain complex social issues
 
-## Purpose and Stakeholders
-## Purpose
+## Purpose 
 To visually communicate rent affordability across the U.S. through clear visuals and encourage discussion about the housing crisis.
 
-### Stakeholders:
+## Stakeholders:
  - Policymakers and city planners working on housing policies
  - Economists and researchers studying income inequality and cost of living
  - Non-profit groups and housing advocates
@@ -116,16 +123,8 @@ Goal: Polished, published dashboard ready for
 presentation
 
 ## Data Biography
-Dataset: U.S. Census Bureau American Community Survey (ACS) Table B25070
-Our main dataset is Table B25070: "Gross Rent as a Percentage of Household Income in
-the Past 12 Months" from the 2023 ACS 5-Year Estimates. This table comes from the Census
-Bureau's biggest ongoing survey of American households, collecting detailed information about
-people, economics, and housing from over 3.5 million addresses every year.
-The American Community Survey replaced part of the census in 2010 and gives us the
-most current detailed picture of America's changing population and housing. The 5-year
-estimates combine data from 2019-2023, which gives us reliable data even for smaller areas and
-groups. Unlike 1-year estimates, 5-year data is more stable and less variable, making it perfect
-for comparing states.
+### *Dataset: U.S. Census Bureau American Community Survey (ACS) Table B25070*
+Our main dataset is Table B25070: "Gross Rent as a Percentage of Household Income in the Past 12 Months" from the 2023 ACS 5-Year Estimates. This table comes from the Census Bureau's biggest ongoing survey of American households, collecting detailed information about people, economics, and housing from over 3.5 million addresses every year. The American Community Survey replaced part of the census in 2010 and gives us the most current detailed picture of America's changing population and housing. The 5-year estimates combine data from 2019-2023, which gives us reliable data even for smaller areas and groups. Unlike 1-year estimates, 5-year data is more stable and less variable, making it perfect for comparing states.
 
 ## Understanding Table B25070:
 This table measures "gross rent" as a share of household income. Gross rent includes:
@@ -133,8 +132,7 @@ This table measures "gross rent" as a share of household income. Gross rent incl
  - Utilities (electricity, gas, water, sewer)
  - Fuels (oil, coal, kerosene, wood)
 
-The table breaks down renters into categories based on what percentage of their household
-income goes toward these costs:
+The table breaks down renters into categories based on what percentage of their household income goes toward these costs:
  - Less than 10%
  - 10.0 to 14.9%
  - 15.0 to 19.9%
@@ -146,30 +144,18 @@ income goes toward these costs:
  - 50.0% or more
  - Not computed (includes households with no income or negative income)
 
-The 30% threshold has been the federal standard for housing affordability since 1981, set by
-HUD. Households paying more than 30% of income on housing are considered "cost-burdened"
-because they may struggle to afford other necessities like food, healthcare, and transportation.
-Those paying 50% or more are "severely cost-burdened."
+The 30% threshold has been the federal standard for housing affordability since 1981, set by HUD. Households paying more than 30% of income on housing are considered "cost-burdened" because they may struggle to afford other necessities like food, healthcare, and transportation. Those paying 50% or more are "severely cost-burdened."
 
-Housing costs have risen faster than wages in most U.S. markets over the past twenty years.
-The COVID-19 pandemic made many of these trends worse, with remote work changing where
-people live and increasing competition in some housing markets. Recent data shows that nearly
-half of American renters are cost-burdened, with low-income households facing the biggest
-challenges. This crisis affects people's ability to move up economically, their health, and their
-quality of life.
 
 ## Data Accessibility and Quality:
 The ACS data is available to everyone through several sources:
  - Census Bureau's data.census.gov website
  - Census Reporter (censusreporter.org) - provides user-friendly tables and visualizations
- - tidycensus R package - allows direct access for research
-The data includes margins of error for all numbers, so researchers can check how reliable the
-data is. For state-level analysis, the 5-year estimates have good sample sizes with relatively small
-margins of error.
+ - (tidycensus)[https://cran.r-project.org/web/packages/tidycensus/index.html] R package - allows direct access for research
+The data includes margins of error for all numbers, so researchers can check how reliable the data is. For state-level analysis, the 5-year estimates have good sample sizes with relatively small margins of error.
 
 ## Historical Context
-Rent burden has been a growing concern since the 1960s but has gotten worse since 2000. Key
-factors include:
+Rent burden has been a growing concern since the 1960s but has gotten worse since 2000. Key factors include:
  - Wages staying flat for low and middle-income workers
  - Rising construction costs and restrictive zoning laws limiting housing supply
  - More demand in cities where jobs are concentrated
@@ -182,8 +168,7 @@ Early research suggests rent burden is highest in:
  - Tourism areas with limited year-round housing
  - Areas with rapid population growth outpacing new housing
  - States with high living costs but service-sector wages
-On the other hand, states in the Midwest and some Southern regions tend to show lower rent
-burdens because housing costs less compared to incomes.
+On the other hand, states in the Midwest and some Southern regions tend to show lower rent burdens because housing costs less compared to incomes.
 
 ## Limitations
 While thorough, the ACS data has some limits:
@@ -198,9 +183,8 @@ Despite these limits, the ACS is still the best source for housing affordability
 ## Additional Data Sources 
 To provide more context, we may include: HUD Fair Market Rent data, Bureau of Labor Statistics wage data by state, State-level cost of living measures, and Population and demographic information from other ACS tables.
 
-## Works cited
-
-
+## Sources
+_________
 
 Census tabulation detail: Gross Rent as a percentage of household income. Census Reporter.(n.d.). [](https://censusreporter.org/tables/B25070/)
 
@@ -209,3 +193,5 @@ Consolidated Planning/CHAS Data | HUD USER. (n.d.). [](https://www.huduser.gov/p
 U.S. Census Bureau. (2023). American Community Survey 5-Year Estimates, Table B25070: Gross Rent as a Percentage of Household Income in the Past 12 Months. Retrieved from [](https://data.census.gov)
 
 U.S. Department of Housing and Urban Development. (n.d.). Affordable Housing. [](https://www.hud.gov/program_offices/comm_planning/affordablehousing/)
+
+Walker K, Herman M (2025). tidycensus: Load US Census Boundary and Attribute Data as 'tidyverse' and 'sf'-Ready Data Frames. R package version 1.7.3, [](https://github.com/walkerke/tidycensus).
