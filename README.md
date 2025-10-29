@@ -1,7 +1,7 @@
 # CostlyLiving
 The Cost of Living: Gross Rent as a Percentage of Household Income in the United States
 
-The data dashboard challenge for the Autumn 2025 BIS 412 Advanced Data Visualization course with Prof. Trujillo. The challenge uses data from the U.S. Census Bureau American Community Survey (ACS) to cost of living.
+The data dashboard challenge for the Autumn 2025 BIS 412 Advanced Data Visualization course with Prof. Trujillo. The challenge uses data from the U.S. Census Bureau American Community Survey (ACS) to develop interactive data visualizations to illumniate patterns in the the rising cost of living.
 
 ### Team
 
@@ -184,14 +184,8 @@ Despite these limits, the ACS is still the best source for housing affordability
 To provide more context, we may include: HUD Fair Market Rent data, Bureau of Labor Statistics wage data by state, State-level cost of living measures, and Population and demographic information from other ACS tables.
 
 ## Sources
-_________
-
-Census tabulation detail: Gross Rent as a percentage of household income. Census Reporter.(n.d.). [](https://censusreporter.org/tables/B25070/)
-
-Consolidated Planning/CHAS Data | HUD USER. (n.d.). [](https://www.huduser.gov/portal/datasets/cp.html)
-
-U.S. Census Bureau. (2023). American Community Survey 5-Year Estimates, Table B25070: Gross Rent as a Percentage of Household Income in the Past 12 Months. Retrieved from [](https://data.census.gov)
-
-U.S. Department of Housing and Urban Development. (n.d.). Affordable Housing. [](https://www.hud.gov/program_offices/comm_planning/affordablehousing/)
-
-Walker K, Herman M (2025). tidycensus: Load US Census Boundary and Attribute Data as 'tidyverse' and 'sf'-Ready Data Frames. R package version 1.7.3, [](https://github.com/walkerke/tidycensus).
+* Census tabulation detail: Gross Rent as a percentage of household income. Census Reporter.(n.d.). [https://censusreporter.org/tables/B25070/]
+* Consolidated Planning/CHAS Data | HUD USER. (n.d.). [https://www.huduser.gov/portal/datasets/cp.html]
+* U.S. Census Bureau. (2023). American Community Survey 5-Year Estimates, Table B25070: Gross Rent as a Percentage of Household Income in the Past 12 Months. Retrieved from [https://data.census.gov]
+* U.S. Department of Housing and Urban Development. (n.d.). Affordable Housing. [https://www.hud.gov/program_offices/comm_planning/affordablehousing/]
+* Walker K, Herman M (2025). tidycensus: Load US Census Boundary and Attribute Data as 'tidyverse' and 'sf'-Ready Data Frames. R package version 1.7.3, [https://github.com/walkerke/tidycensus].
