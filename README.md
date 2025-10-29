@@ -9,7 +9,7 @@ The data dashboard challenge for the Autumn 2025 BIS 412 Advanced Data Visualiza
 
 -   ✍️ Authored by [Anum R.N.K.](https://github.com/AnumRNK04) and [Laila O.](https://github.com/Laila273)
 
--   🔍 Challenge review committee: [Anum R.N.K.](https://github.com/AnumRNK04),[Albany G.](https://github.com/Albanygarciag), [Dylan W](https://github.com/dwuu10), [Ryan M.](https://github.com/glfmoch),  [Marcus L.](https://github.com/marcusxli), [Sebastain T.](https://github.com/Sthors7), [Nuhshire J.](https://github.com/Nuhshire), [James C.](https://github.com/sudo-uwjames),and [Aiden L.](https://github.com/aidenluo04)
+-   🔍 Challenge review committee: [Anum R.N.K.](https://github.com/AnumRNK04), [Albany G.](https://github.com/Albanygarciag), [Dylan W](https://github.com/dwuu10), [Ryan M.](https://github.com/glfmoch), [Marcus L.](https://github.com/marcusxli), [Sebastain T.](https://github.com/Sthors7), [Nuhshire J.](https://github.com/Nuhshire), [James C.](https://github.com/sudo-uwjames),and [Aiden L.](https://github.com/aidenluo04)
 
 -   🛠️ Edited and supervised by Prof. [Caleb Trujillo](https://github.com/calebtru).
 ### Learning Objectives
@@ -96,6 +96,7 @@ Design, Ideation, and Planning
  - Brainstorm research questions
  - Sketch dashboard layout
  - Download and inspect ACS B25070 data 
+
 Goal: Finalized dataset and clear dashboard objectives
 
 ### Week 2 –
@@ -104,6 +105,7 @@ Prototype, Testing, Concepts
  - Refine labels, titles, and axes
  - Compare map and bar chart options
  - Develop layout
+
 Goal: Prototype visuals ready for peer review
 
 ### Week 3 –
@@ -111,6 +113,7 @@ Build, Coding, and Refinement
  - Process and summarize data
  - Add filters for year and state
  - Check for errors and debug
+
 Goal: Working interactive dashboard without bugs
 
 ### Week 4 -
@@ -119,6 +122,7 @@ Deploy, Testing, and Presentation
  - Refine aesthetics and layout
  - Gather feedback from peers
  - Publish final dashboard and present results
+
 Goal: Polished, published dashboard ready for
 presentation
 
