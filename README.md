@@ -1,7 +1,9 @@
 # CostlyLiving
 The Cost of Living: Gross Rent as a Percentage of Household Income in the United States
 
-The data dashboard challenge for the Autumn 2025 BIS 412 Advanced Data Visualization course with Prof. Trujillo. The challenge uses data from the UU.S. Census Bureau American Community Survey (ACS) to cost of living.
+The data dashboard challenge for the Autumn 2025 BIS 412 Advanced Data Visualization course with Prof. Trujillo. The challenge uses data from the U.S. Census Bureau American Community Survey (ACS) to cost of living.
+
+### Team
 
 -   📊 Challenge created by and made for the BIS 412 [Advanced Data Visualization](https://github.com/UWB-Adv-Data-Vis) course at the [University of Washington Bothell](https://www.uwb.edu/).
 
@@ -10,8 +12,8 @@ The data dashboard challenge for the Autumn 2025 BIS 412 Advanced Data Visualiza
 -   🔍 Challenge review committee: [Anum R.N.K.](https://github.com/AnumRNK04),[Albany G.](https://github.com/Albanygarciag), [Dylan W](https://github.com/dwuu10), [Ryan M.](https://github.com/glfmoch),  [Marcus L.](https://github.com/marcusxli), [Sebastain T.](https://github.com/Sthors7), [Nuhshire J.](https://github.com/Nuhshire), [James C.](https://github.com/sudo-uwjames),and [Aiden L.](https://github.com/aidenluo04)
 
 -   🛠️ Edited and supervised by Prof. [Caleb Trujillo](https://github.com/calebtru).
-
- In this assignment you will demonstrate your ability to:
+### Learning Objectives
+In this assignment you will demonstrate your ability to:
 
 *    Prepare data by appropriately formatting it for analysis, summarizing, and filtering. For example, organize real-world data using a standard file format (CSV) and organizational approaches (Tidy).
 *    Answer meaningful research questions using the tools in one or more software packages to work with authentic data.
@@ -38,27 +40,27 @@ Housing costs have become one of the most visible indicators of inequality in th
 The challenge is to transform large and complex ACS datasets into a clear, intuitive, and interactive dashboard that helps users explore how rent burdens vary by state and change over time. This requires effective data wrangling, careful normalization (to adjust for inflation and income changes), and thoughtful visual design to avoid misrepresentation.
 
 ### Why This Challenge Matters:
-• Housing affordability affects millions of Americans' quality of life and financial security
-• Rent burden has gotten much worse in recent years
-• Complex census data needs to be turned into visuals that everyone can understand
-• Understanding geographic patterns can help guide policy decisions
+ - Housing affordability affects millions of Americans' quality of life and financial security
+ - Rent burden has gotten much worse in recent years
+ - Complex census data needs to be turned into visuals that everyone can understand
+ - Understanding geographic patterns can help guide policy decisions
 
 ### What We Hope to Learn:
-• Which states and regions have the worst rent affordability problems
-• How rent burden connects to other economic factors
-• Whether there are surprising patterns that go against common assumptions
-• How well data visualization can explain complex social issues
+ - Which states and regions have the worst rent affordability problems
+ - How rent burden connects to other economic factors
+ - Whether there are surprising patterns that go against common assumptions
+ - How well data visualization can explain complex social issues
 
 ## Purpose and Stakeholders
 ## Purpose
 To visually communicate rent affordability across the U.S. through clear visuals and encourage discussion about the housing crisis.
 
 ### Stakeholders:
-• Policymakers and city planners working on housing policies
-• Economists and researchers studying income inequality and cost of living
-• Non-profit groups and housing advocates
-• Students and the general public interested in social issues
-• Real estate professionals
+ - Policymakers and city planners working on housing policies
+ - Economists and researchers studying income inequality and cost of living
+ - Non-profit groups and housing advocates
+ - Students and the general public interested in social issues
+ - Real estate professionals
 
 ## Targeted Questions for Visual Analytics
 The dashboard should answer these key questions through visuals:
@@ -71,11 +73,11 @@ renters?
 
 
 ## Design Principles:
-• Keep it simple but informative: focus on 1-2 strong visualizations per person/tab
-• Clear labels and notes
-• Same color scheme across all panels
-• Works on different screen sizes
-• Follow ggplot2 best practices
+ - Keep it simple but informative: focus on 1-2 strong visualizations per person/tab
+ - Clear labels, details-demand, and notes for more information
+ - Same color scheme across all panels
+ - Works on different screen sizes
+ - Follow ggplot2 best practices
 
 ## Project Plan:
 WeekPhase Planned Tasks with Goals
@@ -126,22 +128,22 @@ for comparing states.
 
 ## Understanding Table B25070:
 This table measures "gross rent" as a share of household income. Gross rent includes:
-• Contract rent (the amount paid to the landlord)
-• Utilities (electricity, gas, water, sewer)
-• Fuels (oil, coal, kerosene, wood)
+ - Contract rent (the amount paid to the landlord)
+ - Utilities (electricity, gas, water, sewer)
+ - Fuels (oil, coal, kerosene, wood)
 
 The table breaks down renters into categories based on what percentage of their household
 income goes toward these costs:
-• Less than 10%
-• 10.0 to 14.9%
-• 15.0 to 19.9%
-• 20.0 to 24.9%
-• 25.0 to 29.9%
-• 30.0 to 34.9%
-• 35.0 to 39.9%
-• 40.0 to 49.9%
-• 50.0% or more
-• Not computed (includes households with no income or negative income)
+ - Less than 10%
+ - 10.0 to 14.9%
+ - 15.0 to 19.9%
+ - 20.0 to 24.9%
+ - 25.0 to 29.9%
+ - 30.0 to 34.9%
+ - 35.0 to 39.9%
+ - 40.0 to 49.9%
+ - 50.0% or more
+ - Not computed (includes households with no income or negative income)
 
 The 30% threshold has been the federal standard for housing affordability since 1981, set by
 HUD. Households paying more than 30% of income on housing are considered "cost-burdened"
@@ -157,9 +159,9 @@ quality of life.
 
 ## Data Accessibility and Quality:
 The ACS data is available to everyone through several sources:
-• Census Bureau's data.census.gov website
-• Census Reporter (censusreporter.org) - provides user-friendly tables and visualizations
-• tidycensus R package - allows direct access for research
+ - Census Bureau's data.census.gov website
+ - Census Reporter (censusreporter.org) - provides user-friendly tables and visualizations
+ - tidycensus R package - allows direct access for research
 The data includes margins of error for all numbers, so researchers can check how reliable the
 data is. For state-level analysis, the 5-year estimates have good sample sizes with relatively small
 margins of error.
@@ -167,28 +169,28 @@ margins of error.
 ## Historical Context
 Rent burden has been a growing concern since the 1960s but has gotten worse since 2000. Key
 factors include:
-• Wages staying flat for low and middle-income workers
-• Rising construction costs and restrictive zoning laws limiting housing supply
-• More demand in cities where jobs are concentrated
-• Less federal funding for affordable housing programs
-• After the 2008 foreclosure crisis, many owner-occupied homes became rentals
+ - Wages staying flat for low and middle-income workers
+ - Rising construction costs and restrictive zoning laws limiting housing supply
+ - More demand in cities where jobs are concentrated
+ - Less federal funding for affordable housing programs
+ - After the 2008 foreclosure crisis, many owner-occupied homes became rentals
 
 ## Geographic Patterns
 Early research suggests rent burden is highest in:
-• Coastal cities (California, New York, Florida)
-• Tourism areas with limited year-round housing
-• Areas with rapid population growth outpacing new housing
-• States with high living costs but service-sector wages
+ - Coastal cities (California, New York, Florida)
+ - Tourism areas with limited year-round housing
+ - Areas with rapid population growth outpacing new housing
+ - States with high living costs but service-sector wages
 On the other hand, states in the Midwest and some Southern regions tend to show lower rent
 burdens because housing costs less compared to incomes.
 
 ## Limitations
 While thorough, the ACS data has some limits:
-• Sampling error: Smaller groups may have wider margins of error
-• Missing data: Some households don't report income, listed as "not computed"
-• Scope: Data only covers renters, not homeowners with mortgages
-• Timeliness: 5-year estimates are several years behind current conditions
-• Self-reporting: Data relies on survey responses, which may have reporting bias
+ - Sampling error: Smaller groups may have wider margins of error
+ - Missing data: Some households don't report income, listed as "not computed"
+ - Scope: Data only covers renters, not homeowners with mortgages
+ - Timeliness: 5-year estimates are several years behind current conditions
+ - Self-reporting: Data relies on survey responses, which may have reporting bias
 
 Despite these limits, the ACS is still the best source for housing affordability research and is used by HUD, researchers, and policy organizations nationwide.
 
