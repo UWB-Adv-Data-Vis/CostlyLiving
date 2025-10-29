@@ -70,13 +70,17 @@ To visually communicate rent affordability across the U.S. through clear visuals
  - Real estate professionals
 
 ## Targeted Questions for Visual Analytics
-The dashboard should answer these key questions through visuals:
+
+The dashboard could answer these key questions through visuals:
  1. **State Comparison**: Which U.S. states have the highest and lowest percentages of renters spending 30% or more of their income on rent? Which states have the most severly burdened residence(50% or more)?
  2. **Regional Patterns**: How does rent burden vary by U.S. region (West, South, Midwest, Northeast)? Are there clear geographic clusters?
  3. **Distribution Analysis**: What is the full breakdown of rent burden across states? How many renters fall into each category (0-20%, 20-30%, 30-40%, 40-50%, 50% or more)?
  4. **Economic Relationships**: What patterns show up when comparing state-level rent burden to median household income? Do higher-income states have lower rent burdens, or is it more complicated?
  5. **Ranking**: Can users quickly identify the top 10 most and least affordable states for
 renters?
+ 6. **Factor**: What are underlying factors that might explain the variation in rent burden? For example, does the age of state impact the rates? How do political patterns explain trends?
+ 7. **Time**: How has rent burden changed over time and for which regions?
+ 8. **Inflation**: How do estimates of inflation rates relate to the patterns observed?
 
 
 ## Design Principles:
