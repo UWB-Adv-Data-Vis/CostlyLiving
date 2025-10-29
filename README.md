@@ -113,7 +113,7 @@ Build, Coding, and Refinement
  - Check for errors and debug
 Goal: Working interactive dashboard without bugs
 
-### Week 4 
+### Week 4 -
 Deploy, Testing, and Presentation
  - Conduct user testing
  - Refine aesthetics and layout
