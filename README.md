@@ -5,7 +5,7 @@ The data dashboard challenge for the Autumn 2025 BIS 412 Advanced Data Visualiza
 
 ### Team
 
--   📊 Challenge created by and made for the BIS 412 [Advanced Data Visualization](https://github.com/UWB-Adv-Data-Vis) course at the [University of Washington Bothell](https://www.uwb.edu/).
+-   📊 Challenge created by and made for the BDATA 412 [Advanced Data Visualization](https://github.com/UWB-Adv-Data-Vis) course at the [University of Washington Bothell](https://www.uwb.edu/).
 
 -   ✍️ Authored by [Anum R.N.K.](https://github.com/AnumRNK04) and [Laila O.](https://github.com/Laila273)
 
